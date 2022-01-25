@@ -1,0 +1,595 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.img-fluit{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+.header-section{
+    width: 100%;
+   position: absolute;
+    padding: 18px 0;
+}
+.containeer{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+  justify-content: space-between;
+}
+
+.menu-top {
+    text-align: right;
+}
+
+.menu-top img{
+    width: 30px;
+    vertical-align: middle;
+}
+.menu-top span{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-menu ul{
+    list-style: none;
+    padding: 13px 0;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 48px;
+}
+.main-menu ul li a{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d2514;
+    
+letter-spacing: 3px;
+}
+
+/* banner-section */
+.banner-section{
+    width: 100%;
+    background-image: url(../image/banner-bg.png);
+height: 75vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 130px 0;
+}
+.banner-content{
+    display: flex;
+   
+}
+.b-left{
+    flex-basis: 50%;
+   display: flex;
+   height:80vh;
+   align-items: center;
+   
+    
+}
+.b-right{
+    flex-basis: 50%;
+}
+.b-left span{
+    display: inline-block;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    border:2px dashed #3d2514;
+    padding: 5px 7px;
+    text-transform: uppercase;
+}
+
+.b-left h1{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 8px 7px 16px rgba(247, 244, 243, 0.91)    ;
+}
+.b-left h3{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 57px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+}
+.b-right img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* gallery-section start */
+.gallery-section{
+    width: 100%;
+padding: 30px 0;
+}
+.gallery-content{
+    display: flex;
+}
+.gallery-item{
+    flex-basis: 50%;
+    margin: 25px;
+   
+}
+
+
+.item-content{
+    position: relative;
+}
+.item-content img{
+    max-width: 100%;
+    height: auto;
+}
+.g-text{
+    position: absolute;
+    top:24px;
+    left: 24px;
+}
+.g-text h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.g-text h2{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    font-weight: 400;
+   
+}
+
+.mb-2{
+    margin-bottom: 28px;
+}
+
+
+
+/* gallery-section end */
+
+/* <!-- Choice section start --> */
+
+.choice-section{
+    width: 100%;
+    padding: 50px 0;
+}
+.choice-tittle{
+   margin: 0 120px;
+    text-align: center;
+}
+.choice-tittle span{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    background-color: #ffc139;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+}
+.choice-tittle h2{
+  
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+  color: #46210a;
+  letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.choice-tittle p{
+  
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  color: #29211c;
+  line-height: 2;
+    margin-bottom: 15px;
+}
+/* .choice-tittle end */
+/* choice-group code */
+.choice-group{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 70px 0;
+}
+.cg-item{
+    text-align: center;
+}
+.cg-item img{
+ max-width: 100%;
+ margin: auto;
+}
+.cg-item h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    
+    text-transform: uppercase;
+  color: #46210a;
+  letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.cg-item p{
+  
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  color: #c9b2a3;
+  
+    margin-bottom: 15px;
+}
+.cg-item a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    background-color:#de1d1d;
+    color: white;
+    padding: 13px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.cg-item a::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #20d11a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+
+
+
+/* <!-- Choice section end --> */
+
+
+/* <!-- slider section start --> */
+.slider-section{
+    width: 100%;
+    padding: 50px 0;
+}
+.slider-item{
+    display: flex;
+    padding: 25px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.slider-left, .slider-right{
+    flex-basis: 50%;
+}
+.slider-left{
+    padding: 30px 30px;
+}
+.slider-left h5{
+    font-size:29px ;
+    color:rgb(34, 28, 28) ;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Bebas Neue', cursive;
+}
+.slider-left h1{
+    font-size:38px ;
+    color:#46210a ;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+}
+.slider-left p{
+    font-size:16px ;
+    color:#403d47c0 ;
+    text-transform: capitalize;
+    font-weight: 400;
+   margin-top: 15px;
+   line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+.slider-right img{
+    max-width: 100%;
+    height: auto;
+
+}
+/* <!-- slider section start --> */
+
+.slider-item {
+    display: flex;
+    padding: 37px 95px;
+    box-shadow: rgba(149, 157, 165, 0.2) 20px 8px 24px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: red !important;
+    
+}
+.owl-theme .owl-dots{
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    bottom: 86px;
+    left: 128px;
+}
+.owl-theme .owl-nav{
+   
+    font-size: 70px;
+    
+}
+
+.owl-prev span{
+    position: absolute;
+    bottom: 280px;
+    left: 42px;
+}
+.owl-next span{
+    position: absolute;
+    bottom: 280px;
+    right: 42px;
+}
+/* form-section */
+.form-section{
+    width: 100%;
+    padding: 150px 0 75px 0;
+    background-image: url(../image/burger-9.png);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form-tittle{
+    text-align: center;
+}
+.form-tittle h5{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    
+    text-transform: uppercase;
+  color: #46210a;
+  letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.form-tittle h1{
+    font-size:35px;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+  color: #46210a;
+  letter-spacing: 2px;
+   
+}
+
+
+/* form-deging */
+
+.form-area{
+    width: 70%;
+    margin: auto;
+    
+    padding: 50px;
+}
+
+.form-area form{
+    text-align: center;
+}
+.form-content{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+width: 45%;
+padding: 15px;
+font-size: 20px;
+display: inline-block;
+text-transform: uppercase;
+
+}
+.form-control::placeholder{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: black;
+}
+/* 
+.form-content:focus{
+  outline-color: red;
+} */
+.op{
+    width: 49%;
+}
+.form-btn {
+    width: 49%;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+}
+/* <!-- footer section --> */
+
+.footer-section{
+    width: 100%;
+    padding: 30px  0;
+
+}
+.containeer1{
+    width: 1140px;
+    margin: auto;
+    background-image: url(../image/burger-10.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+}
+.f1content{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.f1content-left{
+    width: 50%;
+    padding: 20px 20px;
+}
+.f1content-left img{
+    color: white;
+    max-width: 100%;
+    margin: auto;
+
+}
+.f1content-left p{
+    font-size:15px ;
+    color:white ;
+    text-transform: capitalize;
+    font-weight: 300;
+   margin-top: 15px;
+   line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+.f1content-right {
+    
+   padding: 15px 25px;
+  
+   
+  
+
+}
+
+.f1content-right h5{
+    font-size:15px ;
+    color:white ;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px;
+ 
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.f1content-right h5::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+    
+}
+.f1content-right h6{
+    font-size:15px ;
+    color:white ;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px;
+  
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.f1content-right h6::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+    
+}
+
+
+
+.f2content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+
+
+.f2content-left span{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+padding-top: 22px;
+}
+ .ft-menu ul{
+    list-style: none
+}
+
+.ft-menu ul li {
+    display: inline-block;
+    margin: 15px;
+    
+}
+.ft-menu ul li a {
+   
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        color: #f3eeea;
+        background-color: red;
+      
+      
+        border-radius: 50%;
+        height: 20px;
+        width: 20PX;
+        text-align: center;
+        line-height: 20px;
+      
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
